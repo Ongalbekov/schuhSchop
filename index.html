@@ -5,6 +5,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav>
+        <img src="./assets/img/logo.svg" alt="" />
+        <ul>
+          <li>cataloge</li>
+          <li>fashion</li>
+          <li>favorite</li>
+          <li>lifestyle</li>
+          <li id="signUp" class="signUp">sign up</li>
+        </ul>
+      </nav>
+      <div class="schopNow">
+        <h1>let's</h1>
+        <h1>explore</h1>
+        <h1>unique</h1>
+        <h1>schoes.</h1>
+        <p>Live for Influential and Innovative fashion!</p>
+        <button>Shop now</button>
+      </div>
+    </header>
+    <div class="warenkorb">
+      <p class="warenkorbText">0</p>
+      <img src="./assets/img/Vector (1).png" alt="warenkorb" />
+    </div>
+    <main>
+      <section class="schuhKarte">
+        <h2>new arrivals</h2>
+        <article class="schuh">
+          <div class="schuhArr">
+            <img src="./assets/img/Rectangle 20.png" alt="" />
+            <div class="wrap">
+              <div class="price">
+                <h4>Air</h4>
+                <p>120.00 $</p>
+              </div>
+              <div class="toWarenkorb">
+                <p id="shopWaren" onclick="schopwaren()">+</p>
+                <img
+                  id="arrow"
+                  src="./assets/img/Rectangle 88 (1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="schuhArr">
+            <img src="./assets/img/Rectangle 20 (1).png" alt="" />
+            <div class="wrap">
+              <div class="price">
+                <h4>Dunk High Pro</h4>
+                <p>150.00 $</p>
+              </div>
+              <div class="toWarenkorb">
+                <p id="shopWaren" onclick="schopwaren()">+</p>
+                <img
+                  id="arrow"
+                  src="./assets/img/Rectangle 88 (1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="schuhArr">
+            <img src="./assets/img/Rectangle 20 (2).png" alt="" />
+            <div class="wrap">
+              <div class="price">
+                <h4>Old Skool</h4>
+                <p>50.00 $</p>
+              </div>
+              <div class="toWarenkorb">
+                <p id="shopWaren" onclick="schopwaren()">+</p>
+                <img
+                  id="arrow"
+                  src="./assets/img/Rectangle 88 (1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="schuhArr">
+            <img src="./assets/img/Rectangle 20 (3).png" alt="" />
+            <div class="wrap">
+              <div class="price">
+                <h4>Summer Party</h4>
+                <p>100.00 $</p>
+              </div>
+              <div class="toWarenkorb">
+                <p id="shopWaren" onclick="schopwaren()">+</p>
+                <img
+                  id="arrow"
+                  src="./assets/img/Rectangle 88 (1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="schuhArr">
+            <img src="./assets/img/Rectangle 20 (4).png" alt="" />
+            <div class="wrap">
+              <div class="price">
+                <h4>Retro</h4>
+                <p>149.00 $</p>
+              </div>
+              <div class="toWarenkorb">
+                <p id="shopWaren" onclick="schopwaren()">+</p>
+                <img
+                  id="arrow"
+                  src="./assets/img/Rectangle 88 (1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <div class="schuhArr">
+            <img src="./assets/img/Rectangle 20 (5).png" alt="" />
+            <div class="wrap">
+              <div class="price">
+                <h4>Fancy Doc</h4>
+                <p>120.00 $</p>
+              </div>
+              <div class="toWarenkorb">
+                <p id="shopWaren" onclick="schopwaren()">+</p>
+                <img
+                  id="arrow"
+                  src="./assets/img/Rectangle 88 (1).png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="downloadApp">
+        <article class="appText">
+          <h3>DOWNLOAD APP & GET THE VOUCHER!</h3>
+          <p>
+            Get 30% off for first transaction using Rondovision mobile app for
+            now.
+          </p>
+          <img src="./assets/img/app-store.png" alt="" />
+          <img src="./assets/img/google-play.png" alt="" />
+        </article>
+        <article class="app">
+          <img src="./assets/img/app.png" alt="" />
+        </article>
+      </section>
+      <section class="community">
+        <h3>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h3>
+        <p>Type your email down below and be young wild generation</p>
+        <form action="">
+          <input type="email" id="email" placeholder="Add your email here" />
+          <input type="submit" id="submit" value="SEND" />
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="fashion">
+        <h5>fashion</h5>
+        <p>Complete your style with awesome clothes from us.</p>
+        <div class="facebook">
+          <img src="./assets/img/facebook.svg" alt="" />
+          <img src="./assets/img/instagram.svg" alt="" />
+          <img src="./assets/img/twitter.svg" alt="" />
+          <img src="./assets/img/linkedin.svg" alt="" />
+        </div>
+      </div>
+      <div class="company">
+        <h6>Company</h6>
+        <ul>
+          <li>About</li>
+          <li>Contact us</li>
+          <li>Support</li>
+          <li>Careers</li>
+        </ul>
+      </div>
+      <div class="quicklink">
+        <h6>Quick Link</h6>
+        <ul>
+          <li>Share Location</li>
+          <li>Orders Tracking</li>
+          <li>Size Guide</li>
+          <li>FAQs</li>
+        </ul>
+      </div>
+      <div class="legal">
+        <h6>Legal</h6>
+        <ul>
+          <li>Terms & conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
